@@ -11,16 +11,16 @@ using namespace std;
 
 int main()
 {
-	double a;
+	double ñ;
 	double b;
 	double z1;
 	double z2;
 
-	cout << "a = "; cin >> a;
+	cout << "a = "; cin >> ñ;
 	cout << "b = "; cin >> b;
 
-	z1 = (cos(a) - cos(b)) * (cos(a) - cos(b)) - (sin(a) - sin(b)) * (sin(a) - sin(b));
-	z2 = -4 * sin((a - b) / 2) * sin((a - b) / 2) * cos(a + b);
+	z1 = (cos(ñ) - cos(b)) * (cos(ñ) - cos(b)) - (sin(ñ) - sin(b)) * (sin(ñ) - sin(b));
+	z2 = -4 * sin((ñ - b) / 2) * sin((ñ - b) / 2) * cos(ñ + b);
 
 	cout << "z1 = " << z1 << endl;
 	cout << "z2 = " << z2 << endl;
